@@ -34,8 +34,6 @@ class LoginPage extends StatelessWidget {
               ),
               const TextFieldBox(),
               20.h,
-              const LineOrLine(),
-              20.h,
               SignInBox(
                 onPressed: () {
                   if (formKey.currentState!.validate()) {
@@ -46,6 +44,9 @@ class LoginPage extends StatelessWidget {
                   }
                 },
               ),
+              20.h,
+              const LineOrLine(),
+              20.h,
               const OrButtonBox(),
               const TextButtonCustom(
                 textButton: AppTexts.forgotPassword,

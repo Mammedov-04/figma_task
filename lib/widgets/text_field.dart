@@ -6,8 +6,9 @@ class TextFieldCustomWidget extends StatelessWidget {
   final Widget? prefixIcon;
   final String? hintText;
   final bool obscureText;
+  final EdgeInsetsGeometry? contentPadding;
   const TextFieldCustomWidget(
-      {super.key, this.prefixIcon, this.hintText, required this.obscureText});
+      {super.key, this.prefixIcon, this.hintText, required this.obscureText, this.contentPadding});
 
   @override
   Widget build(BuildContext context) {
@@ -17,6 +18,10 @@ class TextFieldCustomWidget extends StatelessWidget {
         obscureText: obscureText,
         cursorColor: AppColors.lightbLue,
         decoration: InputDecoration(
+            contentPadding: contentPadding,
+            enabledBorder: OutlineInputBorder(
+                borderSide: BorderSide(color: AppColors.neutralLight),
+                borderRadius: BorderRadius.all(Radius.circular(8))),
             border: const OutlineInputBorder(
                 borderSide: BorderSide(color: AppColors.neutralLight),
                 borderRadius: BorderRadius.all(Radius.circular(8))),

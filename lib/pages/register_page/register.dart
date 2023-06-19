@@ -7,23 +7,29 @@ import 'package:figma_task/utilities/constants/texts.dart';
 import 'package:figma_task/widgets/text_field.dart';
 import 'package:flutter/material.dart';
 
+import '../home_page/home_page.dart';
+
 class RegisterPage extends StatelessWidget {
   const RegisterPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return  Scaffold(
       body: SingleChildScrollView(
         child: Column(
           children: [
-            LogoAndTexts(
+            const LogoAndTexts(
                 boldText: AppTexts.getStarted,
                 lighterText: AppTexts.createAccount),
-            TextFieldRegisteBox(),
+            const TextFieldRegisteBox(),
             SigInButton(
+              onPressed: (){ Navigator.push(context,
+                        MaterialPageRoute(builder: (context) {
+                      return const HomePage();
+                    }));},
                 buttonColor: AppColors.lightbLue,
                 buttonText: AppTexts.signUp),
-            RegisterLine(
+            const RegisterLine(
               firstText: AppTexts.haveAccount,
               textButton: AppTexts.signIN,
             )

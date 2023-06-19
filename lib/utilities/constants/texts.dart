@@ -21,4 +21,6 @@ class AppTexts {
   static const String haveAccount = "Have an account?";
   static const String register = "Register";
   static const String fullName = "Full Name";
+  
+  static const String searchProduct = "Search Product";
 }
