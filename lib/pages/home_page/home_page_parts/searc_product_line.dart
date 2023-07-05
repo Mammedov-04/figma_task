@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../../../utilities/constants/colors.dart';
 import '../../../utilities/constants/texts.dart';
-import '../../../widgets/icon_button.dart';
-import '../../../widgets/text_field.dart';
+import '../../../widgets/widgets_custom/icon_button.dart';
+import '../../../widgets/widgets_custom/text_field.dart';
 
 class SearchProductLine extends StatelessWidget {
   const SearchProductLine({super.key});
@@ -11,7 +11,7 @@ class SearchProductLine extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top:10),
+      padding: const EdgeInsets.only(top: 10),
       child: Row(
         children: [
           const Expanded(
@@ -35,7 +35,12 @@ class SearchProductLine extends StatelessWidget {
                   size: 32,
                 )),
                 Stack(
-                   children: [
+                  children: [
+                    const IconButtonCustom(
+                        iconWidget: Icon(
+                      Icons.notifications_none_rounded,
+                      size: 32,
+                    )),
                     Positioned(
                       top: 11,
                       left: 24,
@@ -46,11 +51,6 @@ class SearchProductLine extends StatelessWidget {
                             shape: BoxShape.circle, color: AppColors.lightRed),
                       ),
                     ),
-                    const IconButtonCustom(
-                        iconWidget: Icon(
-                      Icons.notifications_none_rounded,
-                      size: 32,
-                    )),
                   ],
                 )
               ],

@@ -1,10 +1,10 @@
-import 'package:figma_task/pages/login_page/widgets/logo_texts.dart';
-import 'package:figma_task/pages/login_page/widgets/register_row.dart';
-import 'package:figma_task/pages/login_page/widgets/sign_in_button.dart';
-import 'package:figma_task/pages/register_page/register_page_parts.dart/text_field_register_box.dart';
-import 'package:figma_task/utilities/constants/colors.dart';
-import 'package:figma_task/utilities/constants/texts.dart';
-import 'package:figma_task/widgets/text_field.dart';
+import '../login_page/widgets/logo_texts.dart';
+import '../login_page/widgets/register_row.dart';
+import '../login_page/widgets/sign_in_button.dart';
+import 'register_page_parts.dart/text_field_register_box.dart';
+import '../../utilities/constants/colors.dart';
+import '../../utilities/constants/texts.dart';
+import '../../widgets/widgets_custom/text_field.dart';
 import 'package:flutter/material.dart';
 
 import '../home_page/home_page.dart';

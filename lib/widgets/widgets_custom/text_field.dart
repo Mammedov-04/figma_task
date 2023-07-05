@@ -1,5 +1,5 @@
-import 'package:figma_task/utilities/constants/colors.dart';
-import 'package:figma_task/utilities/constants/texts.dart';
+import '../../utilities/constants/colors.dart';
+import '../../utilities/constants/texts.dart';
 import 'package:flutter/material.dart';
 
 class TextFieldCustomWidget extends StatelessWidget {

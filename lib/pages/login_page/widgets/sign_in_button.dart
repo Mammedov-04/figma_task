@@ -1,4 +1,4 @@
-import 'package:figma_task/utilities/constants/colors.dart';
+import '../../../utilities/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 class SigInButton extends StatelessWidget {

@@ -1,6 +1,6 @@
-import 'package:figma_task/utilities/constants/colors.dart';
-import 'package:figma_task/utilities/constants/texts.dart';
-import 'package:figma_task/widgets/text_button.dart';
+import '../../../utilities/constants/colors.dart';
+import '../../../utilities/constants/texts.dart';
+import '../../../widgets/widgets_custom/text_button.dart';
 import 'package:flutter/material.dart';
 
 class RegisterLine extends StatelessWidget {

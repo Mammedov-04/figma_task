@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../utilities/constants/texts.dart';
-import '../../../widgets/text_field.dart';
+import '../../../widgets/widgets_custom/text_field.dart';
 
 class TextFieldRegisteBox extends StatelessWidget {
   const TextFieldRegisteBox({super.key});

@@ -1,5 +1,5 @@
-import 'package:figma_task/utilities/constants/assets.dart';
-import 'package:figma_task/utilities/constants/colors.dart';
+import '../../../utilities/constants/assets.dart';
+import '../../../utilities/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 class LogoAndTexts extends StatelessWidget {

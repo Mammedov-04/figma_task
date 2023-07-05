@@ -1,5 +1,6 @@
-import 'package:figma_task/pages/login_page/login.dart';
 import 'package:flutter/material.dart';
+
+import 'pages/login_page/login.dart';
 
 void main() {
   runApp(const MyApp());
